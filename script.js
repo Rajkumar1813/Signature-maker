@@ -311,4 +311,32 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 }, { passive: false });
             }
+
+            // form 
+
+            const collapseElement = document.getElementById('collapseContent');
+            const collapseIcon = document.querySelector('.collapse-icon');
+            
+            // Toggle icon on collapse/show
+            collapseElement.addEventListener('show.bs.collapse', function() {
+                collapseIcon.textContent = '▲';
+            });
+            
+            collapseElement.addEventListener('hide.bs.collapse', function() {
+                collapseIcon.textContent = '▼';
+            });
+            
+            // Adjust iframe container aspect ratio based on screen size
+            function adjustAspectRatio() {
+                const iframeContainer = document.querySelector('.iframe-container');
+                if (window.innerWidth < 768) {
+                    iframeContainer.style.paddingTop = '180%'; // Taller aspect ratio for mobile
+                } else {
+                    iframeContainer.style.paddingTop = '140%'; // Standard aspect ratio for desktop
+                }
+            }
+            
+            // Run on load and resize
+            adjustAspectRatio();
+            window.addEventListener('resize', adjustAspectRatio);
         });
