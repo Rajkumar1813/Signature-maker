@@ -1,85 +1,90 @@
-# Signature-maker
-📝 SignatureCraft - Beautiful Digital Signature Creator
-<div align="center"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"> </div><div align="center"> <img src="https://user-images.githubusercontent.com/123456789/123456789-abcdef00-1234-5678-90ab-cdef12345678.png" width="600" alt="SignatureCraft Screenshot"> </div>
-✨ Features
-🎨 Create Stunning Signatures
+# ✍️ SignatureCraft - Elegant Digital Signature Maker
 
-Draw with mouse/touch or generate from text
+![SignatureCraft Banner](https://user-images.githubusercontent.com/your-image-path/signature-banner.jpg)
 
-5+ beautiful cursive font styles
+Create stunning digital signatures effortlessly with SignatureCraft - no login required! A beautiful, responsive web app for all your signature needs.
 
-Customizable colors and line thickness
+[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge&logo=vercel)](https://rajkumar1813.github.io/Signature-maker/)
+[![GitHub Stars](https://img.shields.io/github/stars/Rajkumar1813/Signature-maker?style=for-the-badge)](https://github.com/Rajkumar1813/Signature-maker/stargazers)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-🌓 Smart UI
+## ✨ Features
 
-Light/Dark mode toggle
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%">
+        <img src="https://img.icons8.com/color/96/000000/signature.png" width="64"/>
+        <h4>Draw or Type</h4>
+        <p>Create signatures by drawing or typing with beautiful fonts</p>
+      </td>
+      <td width="33%">
+        <img src="https://img.icons8.com/color/96/000000/paint-palette.png" width="64"/>
+        <h4>Customization</h4>
+        <p>Choose colors, line width, and multiple font styles</p>
+      </td>
+      <td width="33%">
+        <img src="https://img.icons8.com/color/96/000000/download.png" width="64"/>
+        <h4>Multiple Formats</h4>
+        <p>Download as PNG, JPG, or SVG for any use case</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-Responsive design for all devices
+## 🎨 Screenshots
 
-Notification system for user feedback
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/your-image-path/light-mode.jpg" width="45%"/>
+  <img src="https://user-images.githubusercontent.com/your-image-path/dark-mode.jpg" width="45%"/>
+</div>
 
-⚡ One-Click Export
+## 🚀 Quick Start
 
-Download as PNG, JPG, or SVG
+1. Visit the live demo: [https://rajkumar1813.github.io/Signature-maker/](https://rajkumar1813.github.io/Signature-maker/)
+2. Create your signature:
+   - Draw with mouse/touch
+   - Or type with beautiful fonts
+3. Customize color and style
+4. Download or copy to clipboard!
 
-Copy to clipboard instantly
+## 🛠️ Technologies Used
 
-No login required - 100% client-side
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+</div>
 
-🚀 Quick Start
-Clone the repo:
+## 🌟 Special Features
 
-bash
-git clone https://github.com/yourusername/signaturecraft.git
-Open index.html in your browser
+- **No Login Required** - 100% free with no registration
+- **Dark/Light Mode** - Eye-friendly themes
+- **Mobile Friendly** - Works on all devices
+- **Clipboard Support** - Copy signatures instantly
+- **5 Beautiful Fonts** - For text signatures
 
-Start creating beautiful signatures!
+## 🤝 Contributing
 
-🎨 Customization
-Edit these variables in style.css to match your brand:
+Contributions are welcome! Please follow these steps:
 
-css
-:root {
-  --primary-color: #6a5acd; /* Main brand color */
-  --secondary-color: #9370db; /* Secondary color */
-  --footer-bg: #343a40; /* Footer background */
-}
-🌟 Why SignatureCraft?
-✅ No server needed - Works entirely in browser
-✅ Privacy focused - No data leaves your computer
-✅ Beautiful UI - Modern gradients and animations
-✅ Mobile friendly - Works on phones & tablets
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-📸 Screenshots
-Light Mode	Dark Mode
-<img src="https://user-images.githubusercontent.com/123456789/123456789-abcdef00-1234-5678-90ab-cdef12345678.png" width="300">	<img src="https://user-images.githubusercontent.com/123456789/123456789-abcdef00-1234-5678-90ab-cdef12345679.png" width="300">
-🤝 Contributing
-PRs are welcome! Please:
+## 📜 License
 
-Fork the project
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Create your feature branch
+## 💖 Credits
 
-Commit your changes
+<div align="center">
+  Made with ❤️ by <a href="https://github.com/Rajkumar1813">Rajkumar</a>
+</div>
 
-Push to the branch
-
-Open a PR
-
-📜 License
-MIT © Rajkumar
-
-<div align="center"> Made with ❤️ by Rajkumar | Give it a ⭐ if you like it! </div>
-💡 Pro Tip: Use this for professional emails, documents, or artistic projects!
-
-🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript
-
-Libraries: Bootstrap 5, SignaturePad.js, Animate.css
-
-Icons: Font Awesome
-
-Fonts: Google Fonts
-
-🔍 Preview
-Try it live: https://yourusername.github.io/signaturecraft
+<p align="center">
+  <img src="https://img.icons8.com/color/48/000000/hearts.png"/>
+</p>
