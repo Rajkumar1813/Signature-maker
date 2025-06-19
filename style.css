@@ -323,3 +323,80 @@
                 flex-wrap: wrap;
             }
         }
+
+        #bling{
+            display: inline-block;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            background: linear-gradient(45deg, 
+                #ff0000, #ff7700, #ffdd00, #00ff00, 
+                #0000ff, #9900ff, #ff00ff, #ff0000);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            animation: bling 4s linear infinite, sparkle 1.5s ease-in-out infinite;
+            padding: 5px 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        #bling-link:hover {
+            transform: scale(1.1);
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+                         0 0 30px gold;
+        }
+        @keyframes bling {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+
+        @keyframes sparkle {
+            0%, 100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.3); }
+            50% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+                             0 0 30px rgba(255, 215, 0, 0.6); }
+        }
+
+
+
+
+        /* Responsive iframe container */
+        .iframe-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 140%; /* Aspect ratio (height/width) - adjust as needed */
+        }
+        
+        /* Responsive iframe */
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* Card styling */
+        .expandable-card {
+            transition: all 0.3s ease;
+            max-width: 800px; /* Maximum card width */
+            margin: 0 auto; /* Center the card */
+        }
+        
+        /* Button styling */
+        .toggle-btn {
+            width: 100%;
+            text-align: left;
+            padding: 0.75rem 1.25rem;
+        }
+        
+        /* Remove default button styling */
+        .toggle-btn:focus {
+            box-shadow: none;
+        }
